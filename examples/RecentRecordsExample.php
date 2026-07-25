@@ -5,10 +5,10 @@ namespace App\Filament\Widgets;
 use App\Models\Order;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Database\Eloquent\Builder;
-use Mujahid\FilamentDashboardWidgets\LatestRecordsTableWidget;
+use Mujahid\FilamentDashboardWidgets\LatestRecordsTable;
 
 
-class RecentRecordsExample extends LatestRecordsTableWidget
+class RecentRecordsExample extends LatestRecordsTable
 {
 
     protected function getQuery(): Builder
