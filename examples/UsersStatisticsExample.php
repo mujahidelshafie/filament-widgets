@@ -4,10 +4,10 @@ namespace App\Filament\Widgets;
 
 use App\Models\User;
 use Filament\Widgets\StatsOverviewWidget\Stat;
-use Mujahid\FilamentDashboardWidgets\StatisticsOverviewWidget;
+use Mujahid\FilamentDashboardWidgets\StatisticsOverview;
 
 
-class UsersStatisticsExample extends StatisticsOverviewWidget
+class UsersStatisticsExample extends StatisticsOverview
 {
 
     protected function getStatistics(): array
