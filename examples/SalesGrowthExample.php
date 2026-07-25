@@ -4,10 +4,10 @@ namespace App\Filament\Widgets;
 
 use App\Models\Order;
 use Illuminate\Database\Eloquent\Builder;
-use Mujahid\FilamentDashboardWidgets\MonthlyGrowthChartWidget;
+use Mujahid\FilamentDashboardWidgets\MonthlyGrowthChart;
 
 
-class SalesGrowthExample extends MonthlyGrowthChartWidget
+class SalesGrowthExample extends MonthlyGrowthChart
 {
 
     protected static ?string $heading = 'Monthly Orders';
