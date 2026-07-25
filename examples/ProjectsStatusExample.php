@@ -3,10 +3,10 @@
 namespace App\Filament\Widgets;
 
 use App\Models\Project;
-use Mujahid\FilamentDashboardWidgets\StatusDistributionChartWidget;
+use Mujahid\FilamentDashboardWidgets\StatusDistributionChart;
 use Illuminate\Database\Eloquent\Builder;
 
-class ProjectsStatusExample extends StatusDistributionChartWidget
+class ProjectsStatusExample extends StatusDistributionChart
 {
     protected static ?string $heading = 'Projects Status';
 
